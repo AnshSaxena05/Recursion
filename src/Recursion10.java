@@ -2,7 +2,7 @@ import java.util.*;
 
 class Recursion10 {
 
-    //Subset Sums - 1 -> Given an array of positive integers arr[] and a value sum, determine if there is a subset of arr[] with sum equal to given sum.
+    //Subset Sums - 1 -> Given a array arr of integers, return the sums of all subsets in the list. Return the sums in sorted order.
     public static void main(String[] args) {
 
         int[] arr = {5,2,1};
