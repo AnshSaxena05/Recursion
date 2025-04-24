@@ -1,6 +1,9 @@
 import java.util.*;
 
 public class Recursion11 {
+
+    // Question : You are given an integer array nums[] that may contain duplicates. Your task is to return all possible subsets.
+    // Return only unique subsets and they can be in any order.
     public static ArrayList<ArrayList<Integer>> printUniqueSubsets(int[] nums) {
         ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
         Arrays.sort(nums);
